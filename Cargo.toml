@@ -1,7 +1,14 @@
 [package]
 authors = ["shadyfennec"]
+categories = ["command-line-utilities"]
+description = "A process memory limiter"
 edition = "2021"
+homepage = "https://github.com/shadyfennec/memlimit"
+keywords = ["memory", "limiter"]
+license = "MIT OR Apache-2.0"
 name = "memlimit"
+readme = "README.md"
+repository = "https://github.com/shadyfennec/memlimit"
 version = "0.1.0"
 
 [dependencies]

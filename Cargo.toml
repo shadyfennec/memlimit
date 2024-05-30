@@ -1,0 +1,12 @@
+[package]
+authors = ["shadyfennec"]
+edition = "2021"
+name = "memlimit"
+version = "0.1.0"
+
+[dependencies]
+clap = {version = "4.5.4", features = ["derive"]}
+colored = "2.1.0"
+itertools = "0.13.0"
+sysinfo = {version = "0.30.12", default-features = false}
+thiserror = "1.0.61"

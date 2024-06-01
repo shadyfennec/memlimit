@@ -2,12 +2,12 @@
 This program allows you to kill a process that exceeds a provided amount of memory consumed by a process.
 
 ## Usage example
-`memlimit -c 16GB cargo install ripgrep --forced`
+`memlimit -c 16GB cargo install ripgrep --force`
 
 This command will:
 - Follow all children (`-c`)
 - With an upper limit of 16GB (16×1000³ bytes)
-- Monitor the command `cargo install ripgrep --forced`, and kill it if the consumed memory exceeds the upper limit.
+- Monitor the command `cargo install ripgrep --force`, and kill it if the consumed memory exceeds the upper limit.
 
 The `memlimit` command will exit with the same exit code as the invoked process, including when it is killed (which will probably be a non-zero value, depending on the OS).
 
